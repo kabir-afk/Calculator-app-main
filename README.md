@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [live]([https://your-live-site-url.com](https://kabir-afk.github.io/Calculator-app-main/)
+- Live Site URL: [live](https://kabir-afk.github.io/Calculator-app-main/)
 
 ## My process
 
