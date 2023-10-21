@@ -1,0 +1,80 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: hsl(0, 0%, 100%);
+  height: 2.75em;
+}
+
+.theme {
+  width: 140px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  gap: 1em;
+  font-size: 12px;
+}
+.theme span {
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.themeSwitcher {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+}
+.themeSwitcher p {
+  justify-self: center;
+}
+
+.themeSwitcherButton {
+  background-color: hsl(223, 31%, 20%);
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  padding: 0.2em;
+}
+.themeSwitcherButton .themeSwitcherBtn_circle {
+  height: 19px;
+  aspect-ratio: 1;
+  border-radius: 100px;
+  background-color: hsl(6, 63%, 50%);
+}
+.themeSwitcherButton .themeSwitcherBtn_circle:hover {
+  cursor: pointer;
+  background-color: rgb(250, 107, 93);
+}
+
+.theme-2 nav {
+  color: hsl(60, 10%, 19%);
+}
+.theme-2 .themeSwitcherButton {
+  justify-content: center;
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 .themeSwitcherButton .themeSwitcherBtn_circle {
+  background-color: hsl(25, 98%, 40%);
+}
+.theme-2 .themeSwitcherButton .themeSwitcherBtn_circle:hover {
+  background-color: rgb(255, 140, 51);
+}
+
+.theme-3 nav {
+  color: hsl(52, 100%, 62%);
+}
+.theme-3 .themeSwitcherButton {
+  justify-content: right;
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-3 .themeSwitcherButton .themeSwitcherBtn_circle {
+  background-color: hsl(176, 100%, 44%);
+}
+.theme-3 .themeSwitcherButton .themeSwitcherBtn_circle:hover {
+  background-color: rgb(146, 255, 250);
+}/*# sourceMappingURL=Navbar.css.map */

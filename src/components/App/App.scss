@@ -1,0 +1,31 @@
+@import '../Variables';
+
+*,
+*::before,
+*::after {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  font-family: 'League Spartan', sans-serif;
+  background-color: $Very-dark-desaturated-blue-main-bg;
+}
+
+.hero-container {
+  // border: 2px solid khaki;
+  margin: 15vh auto;
+  width: 37%;
+  height: max-content;
+  @media screen and (max-width:850px) {
+    margin: 5vh auto;
+    width: 85%;
+    height: 90vh;
+  }
+}

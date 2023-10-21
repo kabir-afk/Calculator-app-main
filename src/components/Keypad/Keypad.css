@@ -1,0 +1,120 @@
+.keypad {
+  display: grid;
+  background-color: hsl(223, 31%, 20%);
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1em;
+  padding: calc(1em + 5px);
+  border-radius: 5px;
+}
+@media screen and (max-width: 850px) {
+  .keypad {
+    height: 27rem;
+  }
+}
+
+.key {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: hsl(30, 25%, 89%);
+  box-shadow: 0 5px hsl(28, 16%, 65%);
+  color: hsl(221, 14%, 31%);
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.3em;
+  font-size: 2rem;
+  font-family: inherit;
+}
+.key:hover {
+  background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 850px) {
+  .key {
+    border-radius: 5px;
+  }
+}
+
+.reset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.blue-bg {
+  background-color: hsl(225, 21%, 49%);
+  box-shadow: 0 5px hsl(224, 28%, 35%);
+  color: hsl(0, 0%, 100%);
+}
+.blue-bg:hover {
+  background-color: rgb(162, 178, 227);
+}
+
+.equal {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: hsl(6, 63%, 50%);
+  box-shadow: 0 5px hsl(6, 70%, 34%);
+  color: hsl(0, 0%, 100%);
+}
+.equal:hover {
+  background-color: rgb(249, 108, 91);
+}
+
+.blue-bg, .equal {
+  font-size: 1.3rem;
+}
+
+.theme-2 .keypad {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 .key {
+  background-color: hsl(45, 7%, 89%);
+  box-shadow: 0 5px hsl(35, 11%, 61%);
+  color: hsl(60, 10%, 19%);
+}
+.theme-2 .key:hover {
+  background-color: rgb(255, 255, 255);
+}
+.theme-2 .blue-bg {
+  background-color: hsl(185, 42%, 37%);
+  box-shadow: 0 5px hsl(185, 58%, 25%);
+  color: hsl(0, 0%, 100%);
+}
+.theme-2 .blue-bg:hover {
+  background-color: rgb(98, 191, 189);
+}
+.theme-2 .equal {
+  background-color: hsl(25, 98%, 40%);
+  box-shadow: 0 5px hsl(25, 99%, 27%);
+  color: hsl(0, 0%, 100%);
+}
+.theme-2 .equal:hover {
+  background-color: rgb(255, 139, 56);
+}
+
+.theme-3 .keypad {
+  background-color: hsl(268, 71%, 12%);
+}
+.theme-3 .key {
+  background-color: hsl(268, 47%, 21%);
+  box-shadow: 0 5px hsl(290, 70%, 36%);
+  color: hsl(52, 100%, 62%);
+}
+.theme-3 .key:hover {
+  background-color: rgb(107, 52, 152);
+}
+.theme-3 .blue-bg {
+  background-color: hsl(281, 89%, 26%);
+  box-shadow: 0 5px hsl(285, 91%, 52%);
+  color: hsl(0, 0%, 100%);
+}
+.theme-3 .blue-bg:hover {
+  background-color: rgb(134, 49, 156);
+}
+.theme-3 .equal {
+  background-color: hsl(176, 100%, 44%);
+  box-shadow: 0 5px hsl(177, 92%, 70%);
+  color: hsl(198, 20%, 13%);
+}
+.theme-3 .equal:hover {
+  background-color: rgb(148, 255, 249);
+}/*# sourceMappingURL=Keypad.css.map */

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/frontend-mentor-challenges/Calculator-app-main/static/css/main.392951e2.css",
+    "main.js": "/frontend-mentor-challenges/Calculator-app-main/static/js/main.b80cde21.js",
+    "static/js/787.28cb0dcd.chunk.js": "/frontend-mentor-challenges/Calculator-app-main/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/frontend-mentor-challenges/Calculator-app-main/index.html",
+    "main.392951e2.css.map": "/frontend-mentor-challenges/Calculator-app-main/static/css/main.392951e2.css.map",
+    "main.b80cde21.js.map": "/frontend-mentor-challenges/Calculator-app-main/static/js/main.b80cde21.js.map",
+    "787.28cb0dcd.chunk.js.map": "/frontend-mentor-challenges/Calculator-app-main/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.392951e2.css",
+    "static/js/main.b80cde21.js"
+  ]
+}
