@@ -1,4 +1,4 @@
-{"homepage": "https://kabir-afk.github.io/frontend-mentor-challenges/Calculator-app-main/",
+{"homepage": "https://kabir-afk.github.io/Calculator-app-main/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build --output ./",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
