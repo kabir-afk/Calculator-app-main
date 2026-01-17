@@ -1,9 +1,9 @@
 import "./Navbar.css";
 
-function Navbar(props) {
+function Navbar({ currentTheme, changeTheme }) {
   return (
     <>
-      <div className={`${props.currentTheme}`}>
+      <div className={`${currentTheme}`}>
         <nav>
           <h1>calc</h1>
           <div className="theme">
@@ -12,7 +12,7 @@ function Navbar(props) {
               <p>1</p>
               <p>2</p>
               <p>3</p>
-              <div className="themeSwitcherButton" onClick={props.changeTheme}>
+              <div className="themeSwitcherButton" onClick={changeTheme}>
                 <div className="themeSwitcherBtn_circle"></div>
               </div>
             </div>

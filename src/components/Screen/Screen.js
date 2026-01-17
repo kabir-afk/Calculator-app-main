@@ -1,14 +1,14 @@
 import "./Screen.css";
 import { useState } from "react";
 
-function Screen(props) {
+function Screen({ currentTheme, inputValue }) {
   return (
-    <div className={`${props.currentTheme}`}>
+    <div className={`${currentTheme}`}>
       <input
         type="text"
         name="screen"
         id="screen"
-        defaultValue={props.inputValue}
+        defaultValue={inputValue}
         disabled
       />
     </div>
